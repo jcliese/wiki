@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+        <title>Advanced Search</title>
+    </head>
+    <body>
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Back to normal search</a>
+            </li>
+        </ul>
+        <form action="https://google.com/search">
+            <div class="form-group-advanced">
+                <h3><span class="red">Advanced Search</span></h3>
+                <hr />
+                <h4>Find pages with...</h4>
+                <div class="form-group row">
+                    <label for="as_q" class="col-sm-2 col-form-label">all these words</label>
+                    <div class="col-lg-6 col-md-8 col-sm-10">
+                      <input type="text" class="form-control" name="as_q" >
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="as_q" class="col-sm-2 col-form-label">this exact word or phrase</label>
+                    <div class="col-lg-6 col-md-8 col-sm-10">
+                      <input type="text" class="form-control" name="as_epq" >
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="as_q" class="col-sm-2 col-form-label">any of these words</label>
+                    <div class="col-lg-6 col-md-8 col-sm-10">
+                      <input type="text" class="form-control" name="as_oq" >
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="as_q" class="col-sm-2 col-form-label">none of these words</label>
+                    <div class="col-lg-6 col-md-8 col-sm-10">
+                      <input type="text" class="form-control" name="as_eq" >
+                    </div>
+                </div>
+                <div class="submit_btn" id="adv_btn">
+                    <button type="submit" class="btn btn-primary">Advanced Search</button>
+                </div>
+            </div>    
+        </form>
+    </body>
+</html>
